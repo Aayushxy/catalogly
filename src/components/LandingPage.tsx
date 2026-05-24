@@ -111,9 +111,9 @@ export default function LandingPage({
           </span>
 
           <h1 className="text-4xl font-black leading-none tracking-tight text-slate-950 sm:text-5xl lg:text-6xl">
-            Aayush Store Platform{" "}
+            Your Premium Digital Storefront Live in{" "}
             <span className="text-emerald-500">
-              Launch Your Own Business
+              Under 1 Minute
             </span>
           </h1>
 
