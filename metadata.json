@@ -1,0 +1,6 @@
+{
+  "name": "Catalogly",
+  "description": "The ultra-simple full-stack Micro-SaaS storefront builder for local Indian businesses. Create a digital catalog, accept payments directly over UPI, and manage orders with instant WhatsApp automation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

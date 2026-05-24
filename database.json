@@ -1,0 +1,443 @@
+{
+  "businesses": [
+    {
+      "id": "biz-1",
+      "name": "Kiran's Boutique & Couture",
+      "slug": "kirans-couture",
+      "description": "Premium handcrafted silk sarees, designer cotton kurtas & customized ethnic apparel direct from Jaipur weavers.",
+      "logo": "🌸",
+      "whatsappNum": "919876543210",
+      "upiId": "kiranboutique@okaxis",
+      "address": "Block B, Mansarovar, Jaipur, Rajasthan - 302020",
+      "instagram": "kirans_couture_jaipur",
+      "themeId": "boutique-blush",
+      "plan": "PREMIUM",
+      "categories": [
+        "Sarees",
+        "Kurtas",
+        "Dupattas"
+      ],
+      "views": 1420,
+      "ordersCount": 48,
+      "createdAt": "2026-04-10T12:00:00Z"
+    },
+    {
+      "id": "biz-2",
+      "name": "Spicy Tadka Cloud Kitchen",
+      "slug": "spicy-tadka",
+      "description": "Authentic, hygienic, home-cooked biryanis & rich Punjabi gravies. Delivered fresh & hot across Mumbai Central.",
+      "logo": "🍲",
+      "whatsappNum": "919898989898",
+      "upiId": "spicytadka@okicici",
+      "address": "Shop 12, Sona Arcade, Prabhadevi, Mumbai - 400025",
+      "instagram": "spicytadka_mumbai",
+      "themeId": "kettle-masala",
+      "plan": "FREE",
+      "categories": [
+        "Biryani",
+        "Gravies",
+        "Breads",
+        "Desserts"
+      ],
+      "views": 650,
+      "ordersCount": 19,
+      "createdAt": "2026-05-01T08:00:00Z"
+    },
+    {
+      "id": "biz-3",
+      "name": "The Clay Palette",
+      "slug": "clay-palette",
+      "description": "Hand-thrown ceramic pottery, custom glazed coffee mugs, organic plant pots, and elegant interior clay objects.",
+      "logo": "✨",
+      "whatsappNum": "918888888888",
+      "upiId": "claypalette@okhdfc",
+      "address": "HSR Layout Sector 3, Bengaluru, Karnataka - 560102",
+      "instagram": "claypalette_studio",
+      "themeId": "classic-emerald",
+      "plan": "PREMIUM",
+      "categories": [
+        "Mugs",
+        "Planters",
+        "Bowls",
+        "Decor"
+      ],
+      "views": 2480,
+      "ordersCount": 89,
+      "createdAt": "2026-03-24T15:30:00Z"
+    },
+    {
+      "id": "biz-pbx0o2j",
+      "name": "aayush",
+      "slug": "aayush",
+      "description": "rdtfygusdf",
+      "logo": "👗",
+      "whatsappNum": "917448180520",
+      "upiId": "",
+      "address": "India",
+      "instagram": "",
+      "themeId": "kettle-masala",
+      "plan": "FREE",
+      "categories": [
+        "Best Sellers",
+        "New Arrivals"
+      ]
+    },
+    {
+      "id": "biz-oq2rfk1",
+      "name": "aayushxy",
+      "slug": "aayushxy",
+      "description": "Welcome to aayushxy! We provide the best premium items handcrafted with love.",
+      "logo": "👗",
+      "whatsappNum": "917448180520",
+      "upiId": "",
+      "address": "India",
+      "instagram": "",
+      "themeId": "classic-emerald",
+      "plan": "FREE",
+      "categories": [
+        "Best Sellers",
+        "New Arrivals"
+      ]
+    },
+    {
+      "id": "biz-32qsonu",
+      "name": "ayushkirana",
+      "slug": "ayushkirana",
+      "description": "Welcome to ayushkirana! We provide the best premium items handcrafted with love.",
+      "logo": "🥖",
+      "whatsappNum": "917448180520",
+      "upiId": "",
+      "address": "India",
+      "instagram": "",
+      "themeId": "saffron-craft",
+      "plan": "FREE",
+      "categories": [
+        "Best Sellers",
+        "New Arrivals"
+      ]
+    },
+    {
+      "id": "biz-lyfwdzf",
+      "name": "ayushkiranastore",
+      "slug": "ayushkiranastore",
+      "description": "Welcome to ayushkiranastore! We provide the best premium items handcrafted with love.",
+      "logo": "🥖",
+      "whatsappNum": "919307143689",
+      "upiId": "",
+      "address": "India",
+      "instagram": "",
+      "themeId": "kettle-masala",
+      "plan": "FREE",
+      "categories": [
+        "Best Sellers",
+        "New Arrivals"
+      ]
+    },
+    {
+      "id": "biz-mjx7pj6",
+      "name": "ayushhandmade",
+      "slug": "ayushhandmade",
+      "description": "Welcome to ayushhandmade! We provide the best premium items handcrafted with love.",
+      "logo": "🎁",
+      "whatsappNum": "917448180520",
+      "upiId": "",
+      "address": "India",
+      "instagram": "",
+      "themeId": "midnight-matte",
+      "plan": "FREE",
+      "categories": [
+        "Best Sellers",
+        "New Arrivals"
+      ]
+    },
+    {
+      "id": "biz-procoud",
+      "name": "ayushclothes",
+      "slug": "ayushclothes",
+      "description": "Welcome to ayushclothes! We provide the best premium items handcrafted with love.",
+      "logo": "👗",
+      "whatsappNum": "917448180520",
+      "upiId": "",
+      "address": "India",
+      "instagram": "",
+      "themeId": "classic-emerald",
+      "plan": "FREE",
+      "categories": [
+        "Best Sellers",
+        "New Arrivals"
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-101",
+      "businessId": "biz-1",
+      "name": "Royal Banarasi Silk Saree",
+      "description": "Elegant emerald and gold Banarasi silk saree with hand-woven zari borders. Perfect for wedding seasons and festivals.",
+      "price": 3850,
+      "discountPrice": 2999,
+      "image": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=600&q=80",
+      "images": [],
+      "category": "Sarees",
+      "stockStatus": "IN_STOCK",
+      "variants": [
+        {
+          "name": "Blouse Stitching",
+          "options": [
+            "Unstitched",
+            "Stitched (Size 38)",
+            "Stitched (Size 40)"
+          ]
+        }
+      ],
+      "sortOrder": 0
+    },
+    {
+      "id": "prod-102",
+      "businessId": "biz-1",
+      "name": "Jaipuri Block-Print Kurti Set",
+      "description": "100% breathable organic cotton kurti. Features dual-tone Indigo block-print patterns with matches pants and cotton Dupatta.",
+      "price": 1899,
+      "discountPrice": 1499,
+      "image": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=600&q=80",
+      "images": [],
+      "category": "Kurtas",
+      "stockStatus": "IN_STOCK",
+      "variants": [
+        {
+          "name": "Size",
+          "options": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ]
+        }
+      ],
+      "sortOrder": 1
+    },
+    {
+      "id": "prod-103",
+      "businessId": "biz-1",
+      "name": "Kashmiri Hand-Embroidered Dupatta",
+      "description": "Elegant Georgette Dupatta decorated with beautiful Kashmiri Aari multi-colored thread work. Instantly elevates any basic Kurta.",
+      "price": 950,
+      "discountPrice": 799,
+      "image": "https://images.unsplash.com/photo-1628144510082-f3277e9227f4?auto=format&fit=crop&w=600&q=80",
+      "images": [],
+      "category": "Dupattas",
+      "stockStatus": "IN_STOCK",
+      "variants": [],
+      "sortOrder": 2
+    },
+    {
+      "id": "prod-201",
+      "businessId": "biz-2",
+      "name": "Special Chicken Dum Biryani (1kg Handi)",
+      "description": "Succulent chicken marinated in overnight spices, slow-cooked in charcoal dum layers with high-grade Basmati rice. Served with spicy raita.",
+      "price": 499,
+      "discountPrice": 399,
+      "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=600&q=80",
+      "images": [],
+      "category": "Biryani",
+      "stockStatus": "IN_STOCK",
+      "variants": [
+        {
+          "name": "Spice Level",
+          "options": [
+            "Medium",
+            "Spicy",
+            "Teekha (High)"
+          ]
+        }
+      ],
+      "sortOrder": 0
+    },
+    {
+      "id": "prod-202",
+      "businessId": "biz-2",
+      "name": "Shahi Paneer Butter Masala",
+      "description": "Chunky premium milk-paneer cubes simmered in a rich velvety cashew tomato butter gravy. Portion size: 500ml box (Serves 2).",
+      "price": 280,
+      "discountPrice": 249,
+      "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=600&q=80",
+      "images": [],
+      "category": "Gravies",
+      "stockStatus": "IN_STOCK",
+      "variants": [],
+      "sortOrder": 1
+    },
+    {
+      "id": "prod-203",
+      "businessId": "biz-2",
+      "name": "Assorted Tandoori Naan/Roti Basket",
+      "description": "Assortment of 1 Butter Naan, 1 Garlic Naan, and 2 Tandoori Rotis baked in traditional clay oven.",
+      "price": 150,
+      "discountPrice": 120,
+      "image": "https://images.unsplash.com/photo-1585238342024-78d387f4a707?auto=format&fit=crop&w=600&q=80",
+      "images": [],
+      "category": "Breads",
+      "stockStatus": "IN_STOCK",
+      "variants": [],
+      "sortOrder": 2
+    },
+    {
+      "id": "prod-301",
+      "businessId": "biz-3",
+      "name": "Handmade Speckled Oatmeal Coffee Mug",
+      "description": "Premium study mug made of organic stoneware, finished with a textured speckled oatmeal runny glaze. Holds 350ml. Microwave safe.",
+      "price": 650,
+      "discountPrice": 549,
+      "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80",
+      "images": [],
+      "category": "Mugs",
+      "stockStatus": "IN_STOCK",
+      "variants": [
+        {
+          "name": "Glaze Finish",
+          "options": [
+            "Glossy White Base",
+            "Matte Charcoal",
+            "Aqua Blue Dip"
+          ]
+        }
+      ],
+      "sortOrder": 0
+    },
+    {
+      "id": "prod-302",
+      "businessId": "biz-3",
+      "name": "Earthy Terracotta Plant Pot with Tray",
+      "description": "Artisanal hand-sculpted clay planter with abstract drainage dots. Complete with a modular bottom water catchment clay plate.",
+      "price": 850,
+      "discountPrice": 720,
+      "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=600&q=80",
+      "images": [],
+      "category": "Planters",
+      "stockStatus": "IN_STOCK",
+      "variants": [
+        {
+          "name": "Diameter Size",
+          "options": [
+            "5 inch",
+            "7 inch"
+          ]
+        }
+      ],
+      "sortOrder": 1
+    },
+    {
+      "id": "prod-303",
+      "businessId": "biz-3",
+      "name": "Abstract Ceramic Ribbed Flower Vase",
+      "description": "Minimalist Nordic style ribbed geometric ceramic vase. Matte cream finished exterior. Stunning with dry pampas grass.",
+      "price": 1250,
+      "discountPrice": 999,
+      "image": "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?auto=format&fit=crop&w=600&q=80",
+      "images": [],
+      "category": "Decor",
+      "stockStatus": "OUT_OF_STOCK",
+      "variants": [],
+      "sortOrder": 2
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-8291",
+      "businessId": "biz-1",
+      "items": [
+        {
+          "productId": "prod-102",
+          "name": "Jaipuri Block-Print Kurti Set",
+          "qty": 2,
+          "price": 1499,
+          "variantStr": "Size: M"
+        },
+        {
+          "productId": "prod-103",
+          "name": "Kashmiri Hand-Embroidered Dupatta",
+          "qty": 1,
+          "price": 799
+        }
+      ],
+      "totalAmount": 3797,
+      "customerName": "Ananya Iyer",
+      "customerPhone": "919830502211",
+      "customerAddress": "Flat 4B, Silver Oak Residency, Landmark Mandir, Gurugram, HR - 122002",
+      "paymentMethod": "UPI",
+      "paymentStatus": "PAID",
+      "status": "COMPLETED",
+      "createdAt": "2026-05-23T14:32:00Z"
+    },
+    {
+      "id": "ord-5142",
+      "businessId": "biz-1",
+      "items": [
+        {
+          "productId": "prod-101",
+          "name": "Royal Banarasi Silk Saree",
+          "qty": 1,
+          "price": 2999,
+          "variantStr": "Blouse Stitching: Stitched (Size 40)"
+        }
+      ],
+      "totalAmount": 2999,
+      "customerName": "Meenakshi Sharma",
+      "customerPhone": "918112233445",
+      "customerAddress": "C-14 Shanti Nagar, Jaipur, RJ",
+      "paymentMethod": "CASH_ON_DELIVERY",
+      "paymentStatus": "PENDING",
+      "status": "NEW",
+      "createdAt": "2026-05-24T05:15:00Z"
+    },
+    {
+      "id": "ord-4281",
+      "businessId": "biz-2",
+      "items": [
+        {
+          "productId": "prod-201",
+          "name": "Special Chicken Dum Biryani",
+          "qty": 1,
+          "price": 399,
+          "variantStr": "Spice Level: Spicy"
+        },
+        {
+          "productId": "prod-202",
+          "name": "Shahi Paneer Butter Masala",
+          "qty": 1,
+          "price": 249
+        }
+      ],
+      "totalAmount": 648,
+      "customerName": "Rahul Deshmukh",
+      "customerPhone": "917042509182",
+      "customerAddress": "Flat 102, Windcrest Heights, Prabhadevi, Mumbai",
+      "paymentMethod": "UPI",
+      "paymentStatus": "PAID",
+      "status": "COMPLETED",
+      "createdAt": "2026-05-23T19:40:00Z"
+    },
+    {
+      "id": "ord-3912",
+      "businessId": "biz-3",
+      "items": [
+        {
+          "productId": "prod-301",
+          "name": "Handmade Speckled Oatmeal Coffee Mug",
+          "qty": 3,
+          "price": 549,
+          "variantStr": "Glaze Finish: Blue Dip"
+        }
+      ],
+      "totalAmount": 1647,
+      "customerName": "Vikram Sen",
+      "customerPhone": "919448102394",
+      "customerAddress": "Villa 22, Green Meadows Green, Sarjapur Road, Bengaluru",
+      "paymentMethod": "UPI",
+      "paymentStatus": "PAID",
+      "status": "NEW",
+      "createdAt": "2026-05-24T06:00:00Z"
+    }
+  ]
+}
