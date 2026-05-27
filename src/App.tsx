@@ -9,6 +9,7 @@ import OnboardingFlow from "./components/OnboardingFlow";
 import Dashboard from "./components/Dashboard";
 import Storefront from "./components/Storefront";
 import { Business, Product } from "./types";
+import { supabase } from "./lib/supabase";
 
 type ViewState = 
   | { type: "landing" }
@@ -26,26 +27,32 @@ export default function App() {
   useEffect(() => {
     if (currentView.type === "storefront") {
       setLoading(true);
-      fetch(`/api/business/by-slug/${currentView.slug}`)
-        .then((res) => {
-          if (!res.ok) throw new Error("Storefront slug not resolved via server db.");
-          return res.json();
-        })
-        .then((data: { business: Business; products: Product[] }) => {
-          setActiveBusinessDetails(data.business);
-          setActiveProducts(data.products);
-          
-          // Increment visitor metrics on the background
-          fetch(`/api/business/${data.business.id}/view`, { method: "POST" }).catch(console.error);
-        })
-        .catch((err) => {
-          console.error("Storefront loader error:", err);
-          alert("The requested storefront address was not found.");
-          setCurrentView({ type: "landing" });
-        })
-        .finally(() => {
-          setLoading(false);
-        });
+      const loadStorefront = async () => {
+  setLoading(true);
+
+  const { data: business, error } = await supabase
+    .from("businesses")
+    .select("*")
+    .eq("slug", currentView.slug)
+    .single();
+
+  if (error || !business) {
+    console.error(error);
+    setLoading(false);
+    return;
+  }
+
+  const { data: products } = await supabase
+    .from("products")
+    .select("*")
+    .eq("businessId", business.id);
+
+  setActiveBusinessDetails(business);
+  setActiveProducts(products || []);
+  setLoading(false);
+};
+
+loadStorefront();
     }
   }, [currentView]);
 

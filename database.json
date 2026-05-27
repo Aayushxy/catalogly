@@ -166,6 +166,23 @@
         "Best Sellers",
         "New Arrivals"
       ]
+    },
+    {
+      "id": "biz-kn28v3h",
+      "name": "ayushsdes",
+      "slug": "ayushsdes",
+      "description": "Welcome to ayushsdes! We provide the best premium items handcrafted with love.",
+      "logo": "👗",
+      "whatsappNum": "917448180520",
+      "upiId": "",
+      "address": "India",
+      "instagram": "",
+      "themeId": "classic-emerald",
+      "plan": "FREE",
+      "categories": [
+        "Best Sellers",
+        "New Arrivals"
+      ]
     }
   ],
   "products": [

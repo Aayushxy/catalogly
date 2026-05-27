@@ -8,6 +8,7 @@ import { motion } from "motion/react";
 import { ArrowLeft, ArrowRight, Store, MessageSquare, CreditCard, Sparkles, Check, Info } from "lucide-react";
 import { Business } from "../types";
 import { THEME_PRESETS } from "../data/seedData";
+import { supabase } from "../lib/supabase";
 
 interface OnboardingFlowProps {
   onComplete: (business: Business) => void;
@@ -115,18 +116,17 @@ export default function OnboardingFlow({ onComplete, onBack }: OnboardingFlowPro
     };
 
     try {
-      const response = await fetch("/api/business", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(newBusiness),
-      });
+      const { data, error } = await supabase
+  .from("businesses")
+  .insert([newBusiness])
+  .select()
+  .single();
 
-      if (!response.ok) {
-        const errObj = await response.json();
-        throw new Error(errObj.error || "Failed to create storefront link.");
-      }
+if (error) {
+  throw new Error(error.message);
+}
 
-      const savedBusiness = await response.json();
+const savedBusiness = data;
       onComplete(savedBusiness);
     } catch (err: any) {
       setError(err.message || "Something went wrong. Please try a different shop slug.");
